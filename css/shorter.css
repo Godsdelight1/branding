@@ -9,7 +9,7 @@ img {
 }
 p {
   color: hsl(257, 7%, 63%);
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 
 .heading h1 {
@@ -79,20 +79,21 @@ p {
 }
 .middle_part h1 {
   font-size: 40px;
-  text-align: center;
-  /* margin-top: 30px; */
-  padding: 20px;
+
+  margin-top: 60px;
+  /* padding: 20px; */
 }
 .middle_part p {
   font-size: 15px;
   margin-top: 5px;
   color: white;
-  text-align: center;
-  padding: 20px;
+
+  /* padding: 20px; */
 }
-.new_idea{
-    max-width: 500px;
-    margin: 0 auto;
+.new_idea {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
 }
 .wrapper img {
   width: 30px;
@@ -102,29 +103,69 @@ p {
   border-radius: 50%;
   /* object-fit: cover; */
   /* align-items: baseline; */
+  position: absolute;
+  top: -20px;
 }
+
 .wrapper {
   /* display: flex; */
   /* justify-content: space-between; */
+  margin-top: 30px;
 }
 
 .together {
+  position: relative;
   background-color: white;
-  font-size: 20pz;
+  font-size: 20px;
+  padding: 20px;
   margin: 25px;
+  text-align: left;
   /* width: 30%; */
 }
 
 .together h1 {
   font-size: 20px;
-  text-align: center;
-  margin-top: 30px;
+  /* text-align: center; */
+  margin-top: 50px;
 }
 
 .together p {
   font-size: 15px;
   color: hsl(257, 7%, 63%);
 }
+.downpart {
+  background-color: hsl(255, 56%, 64%);
+  padding: 20px;
+}
+.downpart button {
+  width: 30%;
+  /* height: 100px; */
+  border-radius: 25px;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 30px;
+}
+
+.downpart h1 {
+  font-size: 30px;
+  color: white;
+  /* margin-top: 50px; */
+}
+.footer{
+    background-color: hsl(255, 11%, 22%);
+    padding: 20px;
+
+
+}
+
+.footer h2{
+    font-size: 20px;
+    color: white;
+}
+
+
 
 @media (min-width: 1028px) {
   #banner {
@@ -157,5 +198,10 @@ p {
   .middle_part {
     /* width: 30%; */
   }
+  .boxtwo {
+    margin-top: 20px;
+  }
+  .boxthree {
+    margin-top: 20px;
+  }
 }
-
