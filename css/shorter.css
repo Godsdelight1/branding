@@ -43,10 +43,10 @@ p {
 }
 .link {
   background-color: hsl(255, 11%, 22%);
-  width: 50%;
+  /* width: 50%; */
   margin: 0 auto;
   color: white;
-  padding: 30px;
+  padding: 50px 20px !important;
   display: flex;
   border-radius: 2px;
   justify-content: space-between;
@@ -73,14 +73,14 @@ p {
   margin: 0 auto;
 }
 .middle_part {
-  background-color: hsl(257, 7%, 63%);
+  background-color: hsl(0, 0%, 75%);
   padding: 20px;
   /* width: 30%; */
 }
 .middle_part h1 {
   font-size: 40px;
   text-align: center;
-  margin-top: 60px;
+  /* margin-top: 30px; */
   padding: 20px;
 }
 .middle_part p {
@@ -90,7 +90,10 @@ p {
   text-align: center;
   padding: 20px;
 }
-
+.new_idea{
+    max-width: 500px;
+    margin: 0 auto;
+}
 .wrapper img {
   width: 30px;
   /* height: 100px; */
@@ -138,7 +141,6 @@ p {
   }
 }
 
-
 @media (min-width: 929px) {
   .wrapper {
     display: flex;
@@ -156,3 +158,4 @@ p {
     /* width: 30%; */
   }
 }
+
