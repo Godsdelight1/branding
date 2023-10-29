@@ -156,14 +156,24 @@ p {
 .footer{
     background-color: hsl(255, 11%, 22%);
     padding: 20px;
-
-
 }
-
 .footer h2{
-    font-size: 20px;
     color: white;
+  font-size: 50px;
 }
+.allinone {
+  color: white;
+  margin: 30px 0;
+}
+  .allinone img{
+width: 45px;
+  }
+.allinone ol{
+  list-style: none;
+
+}
+
+
 
 
 
@@ -182,6 +192,16 @@ p {
   }
 }
 
+@media (min-width: 851px) {
+  .displayer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .allinone{
+    width: 20%;
+  }
+}
 @media (min-width: 929px) {
   .wrapper {
     display: flex;
